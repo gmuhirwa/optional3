@@ -1,0 +1,74 @@
+
+body {
+ 
+}
+#header-nav {
+  background-color: gray;
+}
+.navbar-brand {
+  font-family: 'Anton', sans-serif;
+  padding: 0px 0px 75px;
+}
+.navbar-brand h1 { 
+  color: black;
+  padding-left: 15px;
+}
+/*This is to remove the underlined feature*/
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-toggle span {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+.text-center {
+  color: black;
+  font-size: 34px;
+  font-weight: bold;
+}
+#collapsable-nav a {
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+  text-align: center;
+}
+.row .col-md-4 {
+  background-color: gray;
+  margin-right: 15px;
+  width: 32%
+
+}
+.row p {
+  color: black;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: bold;
+}
+.text-center {
+  text-align: center;
+}
+/********************* Large devices only **************/
+@media (min-width: 1200px) {
+ 
+}
+/********************* Medium devices only *************/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+/********************* Small devices only **************/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+  /***************** Extra small devices only **********/
+@media (min-width: 468px) and (max-width: 767px) {
+  
+}
+/***** Super extra small devicesOnly e.g., iPhone 4 ****/
+@media (max-width: 467px) {
+ /******* This is the original version before all medias.*******/
+  }
+}
