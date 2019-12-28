@@ -50,25 +50,66 @@ body {
 .text-center {
   text-align: center;
 }
+.row h3 {
+	text-align: center !important;
+	color: black;
+	font-weight: bold;
+}
+.row a {
+	float: center;
+	color: blue;
+	font-weight: bold;
+}
 /********************* Large devices only **************/
 @media (min-width: 1200px) {
  
 }
 /********************* Medium devices only *************/
 @media (min-width: 992px) and (max-width: 1199px) {
-    
+ .row .col-md-6 {
+ 	width:48%;
+ 	margin: 10px auto 10px 15px;
+ 	
+ }
+ .col-md-6:nth-child(3) {
+    width: 96%;
+    top: 15px;
+    margin: 0 auto;
+ }
 }
 /********************* Small devices only **************/
 @media (min-width: 768px) and (max-width: 991px) {
-  
+ 
+   .row .col-md-6 {
+ 	width:48%;
+ 	margin: 10px auto 10px 15px;
+ 	
+ }
+ .col-md-6:nth-child(3) {
+    width: 96%;
+    top: 15px;
+    margin: 0 auto;
+ }
 }
 
   /***************** Extra small devices only **********/
 @media (min-width: 468px) and (max-width: 767px) {
-  
+   .row .col-md-6 {
+ 	width:48%;
+ 	margin: 10px auto 10px 15px;
+ 	
+ }
+ .col-md-6:nth-child(3) {
+    width: 96%;
+    top: 15px;
+    margin: 0 auto;
+ }
 }
 /***** Super extra small devicesOnly e.g., iPhone 4 ****/
 @media (max-width: 467px) {
  /******* This is the original version before all medias.*******/
-  }
+   .col-xs-12 {
+    width: 100%;
+}
+
 }
